@@ -13,17 +13,16 @@
     flex-direction: column;
     height: 100vh;
   }
-  
-  /* Column A: full width top */
+ 
   .a {
     background: #f44336;
-    flex: 0 0 auto; /* no grow, no shrink */
+    flex: 0 0 auto; 
     padding: 20px;
     color: white;
     text-align: center;
   }
   
-  /* Middle section container */
+  
   .middle {
     display: flex;
     flex: 1 1 auto;
@@ -32,27 +31,27 @@
   
   .b {
     background: #2196f3;
-    flex: 3; /* 3/4 */
+    flex: 3; 
     padding: 20px;
     color: white;
   }
   
   .c {
     background: #4caf50;
-    flex: 1; /* 1/4 */
+    flex: 1; 
     padding: 20px;
     color: white;
   }
   
-  /* Bottom section container */
+ 
   .bottom {
     display: flex;
-    flex: 0 0 25vh; /* fixed height bottom */
+    flex: 0 0 25vh; 
   }
   
   .d {
     background: #ff9800;
-    flex: 1; /* 1/4 for desktop but will adjust in mobile */
+    flex: 1; 
     padding: 20px;
     color: white;
   }
@@ -97,16 +96,16 @@
 <body>
 
 <div class="container">
-  <div class="a">Column A (Full top)</div>
+  <div class="a">Column A</div>
   
   <div class="middle">
-    <div class="b">Column B (3/4 middle)</div>
-    <div class="c">Column C (1/4 middle)</div>
+    <div class="b">Column B</div>
+    <div class="c">Column C</div>
   </div>
   
   <div class="bottom">
-    <div class="d">Column D (1/4 bottom)</div>
-    <div class="e">Column E (3/4 bottom)</div>
+    <div class="d">Column D</div>
+    <div class="e">Column E</div>
   </div>
 </div>
 
