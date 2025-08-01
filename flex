@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Responsive Flex Layout</title>
 <style>
   body, html {
     margin: 0; padding: 0; height: 100vh; box-sizing: border-box;
